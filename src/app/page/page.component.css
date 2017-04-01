@@ -1,0 +1,42 @@
+.top-menu {
+  background: black;
+  height: 43px;
+  width: 100%;
+  margin-bottom: 12px;
+}
+.wrapper {
+  max-width: 1560px;
+  margin: 0 auto;
+  display: flex;
+  height: 880px;
+}
+.cell {
+  border: 1px solid #cccccc;
+}
+.col-left {
+  min-width: 294px;
+  float: left;
+  margin-right: 7px;
+}
+.col-right {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  float: right;
+}
+.right-center {
+  display: flex;
+  flex: 1;
+}
+
+.center {
+  flex: 1;
+}
+.right {
+  min-width: 303px;
+  margin-left: 7px;
+}
+.bottom {
+  height: 194px;
+  margin-top: 7px;
+}
